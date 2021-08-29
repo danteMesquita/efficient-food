@@ -3,7 +3,7 @@ Repo for efficient food
 
 # Adicionar chave ssh
 [ ] - Abra o git bash
-[ ] - Cole o trecho
+[ ] - Cole o trechos
     ssh-keygen -t ed25519 -C "dante.neto@groove.tech"
 [ ] - Aperte enter para o local da chave para usar o padrao.
 [ ] - Digite a frase segura.
