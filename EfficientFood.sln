@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - UI", "1 - UI", "{B77EF343-B839-48E2-8C6F-DF2BA451A774}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Applications", "3 - Applications", "{007CA954-0148-44F3-AE21-8EDE7BE4AFA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Services", "4 - Services", "{E46F0A54-1628-46DC-B3E9-4B3C480C584F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Domain", "5 - Domain", "{A153442B-D412-46FA-97A6-D07575E0CBC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Repositories", "6 - Repositories", "{FB2ADB59-95F8-483D-AA73-3FB0916FB9C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - MariaDB", "1 - MariaDB", "{5587A7B0-3B79-491F-BAE0-760BBF9EF149}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7 - CrossDomain", "7 - CrossDomain", "{76AF7ECC-D7C3-4B27-94A8-AEF0CEAB85B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 - Testes", "00 - Testes", "{CC25460A-B7A7-4F45-9A28-CC0503FCC5E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfficientFood.UI", "EfficientFood.UI\EfficientFood.UI\EfficientFood.UI.csproj", "{9B75E811-33E6-4D36-B04A-352EDCD70E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "EfficientFood.UI\DAL\DAL.csproj", "{23FA4621-F49E-44CB-8DA5-70D10EB3E673}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B75E811-33E6-4D36-B04A-352EDCD70E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B75E811-33E6-4D36-B04A-352EDCD70E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B75E811-33E6-4D36-B04A-352EDCD70E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B75E811-33E6-4D36-B04A-352EDCD70E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FA4621-F49E-44CB-8DA5-70D10EB3E673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FA4621-F49E-44CB-8DA5-70D10EB3E673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FA4621-F49E-44CB-8DA5-70D10EB3E673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FA4621-F49E-44CB-8DA5-70D10EB3E673}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5587A7B0-3B79-491F-BAE0-760BBF9EF149} = {FB2ADB59-95F8-483D-AA73-3FB0916FB9C8}
+		{9B75E811-33E6-4D36-B04A-352EDCD70E6E} = {B77EF343-B839-48E2-8C6F-DF2BA451A774}
+		{23FA4621-F49E-44CB-8DA5-70D10EB3E673} = {5587A7B0-3B79-491F-BAE0-760BBF9EF149}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79486385-0C8B-44AF-868D-572817D12AA3}
+	EndGlobalSection
+EndGlobal
